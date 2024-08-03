@@ -1,0 +1,17 @@
+#videoPlayer {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    #videoPlayer {
+        max-width: 100%;
+    }
+}
+
+@media (orientation: landscape) {
+    #videoPlayer {
+        max-height: 90vh;
+    }
+}
